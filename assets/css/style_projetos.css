@@ -150,3 +150,8 @@ body{
 #owl-demo .item img{
   display: block;
 }
+
+.carousel {
+  width: 1000px;
+  margin: 0 auto;
+}
