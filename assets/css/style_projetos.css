@@ -143,15 +143,35 @@ body{
   margin-bottom: 18px;
 }
 
-.div__aside{
-  display: flex;
-}
-
-#owl-demo .item img{
-  display: block;
-}
-
 .carousel {
-  width: 1000px;
   margin: 0 auto;
+}
+
+.header{
+  overflow: hidden;
+}
+
+.img__grande{
+  max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.img__grande:active{
+  -moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	transform: scale(2);
+} 
+
+.footer{
+  overflow: hidden;
+}
+
+.button__footer{
+  transition: all 0.5s;
+}
+
+.button__footer:hover{
+  transform:translate(-75%, 0);
 }
