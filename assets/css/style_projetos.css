@@ -1,0 +1,152 @@
+*{
+  list-style: none;
+  text-transform: none;
+  text-decoration: none;
+}
+
+body{
+  background-color: black;
+  padding: 0;
+}
+
+.div__header{
+  line-height: 1.5;
+  letter-spacing: 0;
+  margin-top: 38.62px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.main{
+  margin: 0 40px;
+  margin-bottom: 14px;
+}
+
+.h3__header {
+  font-size: 17.23px;
+  color: #70FF00;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+.h5__header{
+  color: white;
+  font-family: 'Saira', sans-serif;
+  font-size: 11.48px;
+}
+
+.img__main{
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.button__footer{
+  background-color: #70FF00;
+  border: none;
+  color: black;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: bold;
+  margin-bottom: 3.48px;
+  text-align: right;
+  border-top-right-radius: 6.06px;
+  border-end-end-radius: 6.06px;
+}
+
+.div__footer{
+  display: flex;
+  flex-direction: column;
+  padding-right: 107.13px;
+  width: 141.87px;
+}
+
+.section__footer{
+  display: flex;
+  align-items: flex-end;
+}
+
+.a__footer2{
+  color:#70FF00;
+  font-family: 'Saira Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  font-weight: bold;
+  font-size: 14.12px;
+  padding-right: 6px;
+}
+
+.a__footer{
+  color: black;
+}
+
+.div__footer2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25%;
+  margin-right: 6px;
+}
+
+.section__footer{
+  bottom: 0;
+  left: 0;
+  margin-bottom: 37px;
+}
+
+/* página projetos */
+
+.img__grande{
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+}
+
+.seta {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  z-index: 10;
+}
+
+.seta1 {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  z-index: 10;
+}
+
+.h3__pantera{
+  color:#70FF00;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 16.54px;
+}
+
+.h3__trabalho{
+  color: white;
+  font-family: 'Saira Condensed', sans-serif;
+  font-weight: lighter;
+  font-size: 16.53px;
+}
+
+.div__main{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 43px;
+}
+
+.aside{
+  margin-bottom: 18px;
+}
+
+.div__aside{
+  display: flex;
+}
+
+#owl-demo .item img{
+  display: block;
+}
