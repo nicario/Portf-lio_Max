@@ -2,13 +2,11 @@
   list-style: none;
   text-transform: none;
   text-decoration: none;
-
 }
 
 body{
   background-color: black;
   padding: 0;
-  margin: 0 40px;
 }
 
 .div__header{
@@ -16,6 +14,12 @@ body{
   letter-spacing: 0;
   margin-top: 38.62px;
   margin-bottom: 10px;
+  margin-left: 40px;
+}
+
+.main{
+  margin: 0 40px;
+  margin-bottom: 14px;
 }
 
 .h3__header {
@@ -87,7 +91,6 @@ body{
 }
 
 .section__footer{
-  position: absolute;
   bottom: 0;
   left: 0;
   margin-bottom: 37px;
